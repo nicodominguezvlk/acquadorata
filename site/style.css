@@ -1,0 +1,132 @@
+/* Vars */
+:root{
+    --negro: #000000;
+    --platino: #111110;
+    --crema: #B0A98F;
+    --dorado: #B39D3C;
+}
+
+@font-face {
+    font-family: 'Arquitecta';
+    src: url("fonts/Arquitecta.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArquitectaBlack';
+    src: url("fonts/ArquitectaBlack.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArquitectaBold';
+    src: url("fonts/ArquitectaBold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArquitectaBook';
+    src: url("fonts/ArquitectaBook.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArquitectaHeavy';
+    src: url("fonts/ArquitectaHeavy.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArquitectaLight';
+    src: url("fonts/ArquitectaLight.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArquitectaMedium';
+    src: url("fonts/ArquitectaMedium.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArquitectaThin';
+    src: url("fonts/ArquitectaThin.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roseritta';
+    src: url("fonts/Roseritta.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* Mobile */
+header{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    padding: 1vw 0;
+}
+
+header .relleno{
+    width: 1vw;
+    border: 1px solid aliceblue;
+}
+
+.back-negro{
+    background-color: var(--negro);
+}
+
+.back-platino{
+    background-color: var(--platino);
+}
+
+.back-crema{
+    background-color: var(--crema);
+}
+
+.back-dorado{
+    background-color: var(--dorado);
+}
+
+.logo img{
+    padding-top: 0.6vh;
+    height: 7vw;
+    width: auto;
+}
+
+.title{
+    color: var(--crema);
+    font-family: Roseritta, serif;
+    font-size: 6vw;
+}
+
+.contact-link, .contact-link a:visited{
+    color: var(--crema);
+    font-family: ArquitectaThin, sans-serif;
+    font-size: 2vw;
+}
