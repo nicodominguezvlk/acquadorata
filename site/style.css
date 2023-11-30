@@ -80,6 +80,8 @@ body{
 }
 
 /* Mobile */
+
+/* Header */
 header{
     position: sticky;
     z-index: 1;
@@ -88,13 +90,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3vw;
-    padding: 1vw 0;
-}
-
-header .relleno{
-    width: 1vw;
-    border: 1px solid aliceblue;
+    gap: 2vw;
+    padding: 2vw 0;
 }
 
 .back-negro{
@@ -113,20 +110,53 @@ header .relleno{
     background-color: var(--dorado);
 }
 
-.logo img{
+.header-logo img{
     padding-top: 0.6vh;
     height: 7vw;
     width: auto;
 }
 
-.title{
+.header-title{
     color: var(--crema);
     font-family: Roseritta, serif;
     font-size: 6vw;
 }
 
-.contact-link, .contact-link a:visited{
-    color: var(--crema);
-    font-family: ArquitectaThin, sans-serif;
-    font-size: 2vw;
+/* Main */
+.main-section{
+    background-image: url(img/limones-back1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 94vh;
+}
+
+.main-fill{
+    height: 35%;
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    font-family: Roseritta, serif;
+    font-weight: 600;
+    font-size: 13vw;
+    word-spacing: 8vw;
+}
+
+.main-slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    font-family: ArquitectaBook, sans-serif;
+    padding-top: 2%;
+    font-size: 5vw;
+    color: #ddddcc;
+}
+
+.next-section{
+    height: 500px;
 }
