@@ -164,7 +164,7 @@ header{
 }
 
 .about-title{
-    color: var(--crema);
+    color: #DDDDCC;
     text-align: center;
     font-family: Roseritta, serif;
     font-size: 36px;
@@ -172,15 +172,15 @@ header{
     padding-bottom: 20px;
 }
 
-.about-text-container{
+.about-desc-container{
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
-.about-text{
-    color: var(--crema);
+.about-desc{
+    color: #DDDDCC;
     text-align: justify;
     font-family: ArquitectaBook, sans-serif;
     font-size: 20px;
@@ -201,4 +201,181 @@ header{
     height: 30px;
     width: auto;
     padding-top: 10px;
+}
+
+
+/* Product1 */
+.product1{
+    background-color: #CFC6A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 217px;
+}
+
+.product1-text-container{
+    width: 250px;
+    padding-left: 20px;
+}
+
+.product1-img{
+    width: auto;
+    height: 37vw;
+    max-height: 190px;
+    margin-right: 20px;
+}
+
+.product1-title{
+    color:#000000;
+    font-family: ArquitectaMedium, sans-serif;
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    white-space: nowrap;
+}
+
+.product1-desc{
+    font-family: ArquitectaBook, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 40px;
+}
+
+.product1-extra{
+    font-family: ArquitectaLight, sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+/* Product2 */
+.product2{
+    background-color: #C6B156;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 217px;
+}
+
+.product2-text-container{
+    width: 250px;
+    padding-right: 20px;
+}
+
+.product2-img{
+    width: auto;
+    height: 37vw;
+    max-height: 190px;
+    margin-left: 20px;
+}
+
+.product2-title{
+    color:#000000;
+    font-family: ArquitectaMedium, sans-serif;
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.product2-desc{
+    font-family: ArquitectaBook, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 40px;
+}
+
+.product2-extra{
+    font-family: ArquitectaLight, sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: right;
+}
+
+/* Product3 */
+.product3{
+    background-color: #222220;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 217px;
+}
+
+.product3-text-container{
+    width: 250px;
+    padding-left: 20px;
+}
+
+.product3-img{
+    width: auto;
+    height: 37vw;
+    max-height: 190px;
+    margin-right: 20px;
+}
+
+.product3-title{
+    color:#DDDDCC;
+    font-family: ArquitectaMedium, sans-serif;
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    white-space: nowrap;
+}
+
+.product3-desc{
+    font-family: ArquitectaBook, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 40px;
+    color:#DDDDCC;
+}
+
+.product3-extra{
+    font-family: ArquitectaLight, sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    color:#DDDDCC;
+}
+
+/* Credits */
+.credits{
+    background-color: #111110;
+    height: 500px;
+}
+
+.credits-title{
+    color: #DDDDCC;
+    text-align: center;
+    font-family: Roseritta, serif;
+    font-size: 36px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.credits-desc-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.credits-desc1, .credits-desc2{
+    color: #DDDDCC;
+    font-size: 20px;
+    font-family: ArquitectaBook, sans-serif;
+    text-align: center;
+}
+
+.credits-social-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.credits-social1, .credits-social2{
+    color: #DDDDCC;
+    font-size: 16px;
+    font-family: ArquitectaBook, sans-serif;
 }
